@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="width=device-width, intial-scale=1.0">
+    <title>Suzuki - Live to Ride</title>
+    <link rel="stylesheet" href="style002Superbike.css">
+</head>
+<body>
+        <div class="container" id="bike">
+
+            <nav>
+                <a href="index.html"><img src="Img/logo.png" alt="Image unavailable" class="logo" title="click to return to home"></a>
+            <ul>
+                <li><a href="012 Prices.html" class="btn">Price Range</a></li>
+                <li><a href="011 Dealerships.html" class="btn">Dealerships</a></li>
+				<li><a href="010 Contact.html" class="btn">Contact Us</a></li>
+            </ul>
+            </nav>
+            <div class="content">
+                <h2><br></h2>
+                <h1>GSX 1000 R</h1>
+                <p>Suzuki revolutionized the sportbike category with the introduction of the original GSX-R750 in 1985, and then created another milestone in 2001 with the introduction of the GSX-R1000.
+                <br><br>
+                   At the pinnacle of the GSX-R family of ultra-high performance supersport motorcycles, the GSX-R1000R is ideal not only for racetrack conquest, but also for city road cruising</p>
+                <h3>Choose your colour</h3>
+                <div class="colour-select">
+                    <div id="red"></div>
+                    <div id="blue"></div>
+                    <div id="black"></div>
+                </div>
+            </div>
+
+            <div class="home">
+                <a href=index.html class="home">Return to home</a>
+            </div>
+        </div>
+ <script>
+     let redBtn = document.getElementById("red");
+     let blueBtn = document.getElementById("blue");
+     let blackBtn = document.getElementById("black");
+     let bike = document.getElementById("bike");
+
+     redBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/001Supersport/001.png)";
+     }
+
+     blueBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/001Supersport/002.png)";
+     }
+
+     blackBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/001Supersport/003.png)";
+     }
+
+ </script>  
+
+</body>
+</html>

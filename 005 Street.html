@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="width=device-width, intial-scale=1.0">
+    <title>Suzuki - Live to Ride</title>
+    <link rel="stylesheet" href="style005Street.css">
+</head>
+<body>
+        <div class="container" id="bike">
+
+            <nav>
+                <a href="index.html"><img src="Img/logo.png" alt="Image unavailable" class="logo" title="click to return to home"></a>
+            <ul>
+                <li><a href="012 Prices.html" class="btn">Price Range</a></li>
+                <li><a href="011 Dealerships.html" class="btn">Dealerships</a></li>
+				<li><a href="010 Contact.html" class="btn">Contact Us</a></li>
+            </ul>
+            </nav>
+            <div class="content">
+                <h2><br></h2>
+                <h1>GSX-S1000</h1>
+                <p>The GSX-S1000 launched in 2015 as a new model developed to bring the fun of sport riding to riders on the street
+                <br><br>
+                   At its heart was a street-tuned version of the powerful long-stroke engine that carried the GSX-R1000 to countless superbike and endurance race victories. This engine was skillfully paired with a compact and lightweight chassis, state-of-the-art running gear and a comfortable upright riding position
+                <br><br>
+                   Just as the GSX-R1000 was built to "own the racetrack", the GSX-S1000 was created to "own the street".</p>
+                <h3>Choose your colour</h3>
+                <div class="colour-select">
+                    <div id="red"></div>
+                    <div id="blue"></div>
+                    <div id="black"></div>
+                </div>
+            </div>
+            
+            <div class="home">
+                <a href=index.html class="home">Return to home</a>
+            </div>
+        </div>
+ <script>
+     let redBtn = document.getElementById("red");
+     let blueBtn = document.getElementById("blue");
+     let blackBtn = document.getElementById("black");
+     let bike = document.getElementById("bike");
+
+     redBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/004Street/001.png)";
+     }
+
+     blueBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/004Street/002.png)";
+     }
+
+     blackBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/004Street/003.png)";
+     }
+
+ </script>  
+
+</body>
+</html>

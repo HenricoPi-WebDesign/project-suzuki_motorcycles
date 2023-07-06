@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="width=device-width, intial-scale=1.0">
+    <title>Suzuki - Live to Ride</title>
+    <link rel="stylesheet" href="style004Katana.css">
+</head>
+<body>
+        <div class="container" id="bike">
+
+            <nav>
+                <a href="index.html"><img src="Img/logo.png" alt="Image unavailable" class="logo" title="click to return to home"></a>
+            <ul>
+                <li><a href="012 Prices.html" class="btn">Price Range</a></li>
+                <li><a href="011 Dealerships.html" class="btn">Dealerships</a></li>
+				<li><a href="010 Contact.html" class="btn">Contact Us</a></li>
+            </ul>
+            </nav>
+            <div class="content">
+                <h2><br></h2>
+                <h1>KATANA</h1>
+                <p>Forged to perfection and polished to a magnifi cent radiance. Engineered to provide maximum control and optimum performance. Finely crafted to take riding pleasure to a new level. 
+                <br>
+                The Suzuki KATANA is destined to create a new legend
+                <br><br>
+                   From the sharp lines and highlights defi ning the length of its body to the rider-friendly performance of its 110 kW (150PS) engine, every detail of the Suzuki KATANA speaks of distinctive beauty.</p>
+                <h3>Choose your colour</h3>
+                <div class="colour-select">
+                    <div id="red"></div>
+                    <div id="blue"></div>
+                    <div id="black"></div>
+                </div>
+            </div>
+        
+             <div class="home">
+                <a href=index.html class="home">Return to home</a>
+            </div>
+        </div>
+ <script>
+     let redBtn = document.getElementById("red");
+     let blueBtn = document.getElementById("blue");
+     let blackBtn = document.getElementById("black");
+     let bike = document.getElementById("bike");
+
+     redBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/003Katana/001.png)";
+     }
+
+     blueBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/003Katana/002.png)";
+     }
+
+
+//     blackBtn.onclick = function(){
+//       bike.style.backgroundImage = "url(Img/003Katana/003.png)";
+//   }
+
+ </script>  
+
+</body>
+</html>

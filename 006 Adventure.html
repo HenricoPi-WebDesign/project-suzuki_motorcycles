@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="width=device-width, intial-scale=1.0">
+    <title>Suzuki - Live to Ride</title>
+    <link rel="stylesheet" href="style006Adventure.css">
+</head>
+<body>
+        <div class="container" id="bike">
+
+            <nav>
+                <a href="index.html"><img src="Img/logo.png" alt="Image unavailable" class="logo" title="click to return to home"></a>
+            <ul>
+                <li><a href="012 Prices.html" class="btn">Price Range</a></li>
+                <li><a href="011 Dealerships.html" class="btn">Dealerships</a></li>
+				<li><a href="010 Contact.html" class="btn">Contact Us</a></li>
+            </ul>
+            </nav>
+            <div class="content">
+                <h2><br></h2>
+                <h1>V-STROM</h1>
+                <p>Lets you freely escape into the wilderness and explore to your heart's content.
+                <br><br>
+						A sleek look with the latest features allows for a smooth and comfortable ride.
+						Limitless potential to continue your adventure. Ride on my friend.
+				<br><br>
+						The new generation V-STROM 1050XT is always by your side</p>
+                <h3>Choose your colour</h3>
+                <div class="colour-select">
+                    <div id="red"></div>
+                    <div id="blue"></div>
+                    <div id="black"></div>
+                </div>
+            </div>
+
+            <div class="home">
+                <a href=index.html class="home">Return to home</a>
+            </div>
+        </div>
+ <script>
+     let redBtn = document.getElementById("red");
+     let blueBtn = document.getElementById("blue");
+     let blackBtn = document.getElementById("black");
+     let bike = document.getElementById("bike");
+
+     redBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/005Adventure/001.png)";
+     }
+
+     blueBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/005Adventure/002.png)";
+     }
+
+     blackBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/005Adventure/003.png)";
+     }
+
+ </script>  
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="width=device-width, intial-scale=1.0">
+    <title>Suzuki - Live to Ride</title>
+    <link rel="stylesheet" href="style003Ultimate.css">
+</head>
+<body>
+
+        <div class="container" id="bike">
+
+            <nav>
+                <a href="index.html"><img src="Img/logo.png" alt="Image unavailable" class="logo" title="click to return to home"></a>
+            <ul>
+                <li><a href="012 Prices.html" class="btn">Price Range</a></li>
+                <li><a href="011 Dealerships.html" class="btn">Dealerships</a></li>
+				<li><a href="010 Contact.html" class="btn">Contact Us</a></li>
+            </ul>
+            </nav>
+            <div class="content">
+                <h2><br></h2>
+                <h1>Hayabusa</h1>
+                <p>Famed for its abundant power, agility and majestic presence. Legendary for establishing levels of ultimate sport performance and retaining its position atop the class it created for over two decades. 
+                 <br><br>
+                The latest generation provides even smoother power delivery, nimbler handling, and a collection of electronic assist systems that make the Hayabusa more controllable, predictable and reliable. And all this wrapped in a package with breathtaking style and grace.
+                <br><br>
+                   And all this wrapped in a package with breathtaking style and grace.</p>
+                <h3>Choose your colour</h3>
+                <div class="colour-select">
+                    <div id="red"></div>
+                    <div id="blue"></div>
+                    <div id="black"></div>
+                </div>
+            </div>
+
+            <div class="home">
+                <a href=index.html class="home">Return to home</a>  
+            </div>
+        </div>
+ <script>
+     let redBtn = document.getElementById("red");
+     let blueBtn = document.getElementById("blue");
+     let blackBtn = document.getElementById("black");
+     let bike = document.getElementById("bike");
+
+     redBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/002Ultimate/001.png)";
+     }
+
+     blueBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/002Ultimate/002.png)";
+     }
+
+     blackBtn.onclick = function(){
+         bike.style.backgroundImage = "url(Img/002Ultimate/003.png)";
+     }
+
+ </script>  
+
+</body>
+</html>
